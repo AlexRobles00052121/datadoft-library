@@ -1,0 +1,23 @@
+java BACKEND
+react FRONTEND
+
+MySQL 
+
+3 tablas de una biblioteca
+
+Creame la base de datos de estas tabals
+
+login
+grid de libros
+barra lateral de categorias
+buscador de libros
+
+caarchila
+
+crea un baase de datos .sql nombre library con 3 tablas, la primera sera 
+
+books que tendrá id, name. summary. price, stage, image, gen_id, usr_id
+
+la tabla sigueinte tabla sera users con id, full_name, username, passwd, state; el elemento usr_id se debe conectar a esta
+
+la siguiente tabla es generes, que tendra id, y name; el elemento gen_id se  debe conectar a esta

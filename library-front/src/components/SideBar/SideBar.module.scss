@@ -1,0 +1,27 @@
+.SideButtons {
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        
+
+        button {
+            width: 50%;
+            padding: 0.5rem 1rem;
+            font-family: 'Hammersmith One';
+            font-weight: 400;
+            font-size: 20px;
+            color: black;
+            font-size: 18px;
+            gap: 1rem;
+            margin: 1rem;
+            border: none;
+            background: #81f2ffee;
+            
+            border-radius: 30px;
+            cursor:pointer;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.card{
+    width: 18rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        cursor: pointer;
+    }
+
+    h3{
+        color:black;
+        font-family: 'Hammersmith One';
+        text-align: center;
+    }
+    
+    p{
+        color: black;
+    }
+
+    figure{
+        margin: 0;
+        padding: 0;
+        img{
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }   
+    }
+}

@@ -1,0 +1,10 @@
+.feed-wrapper {
+    width: 100%;
+    padding: 1rem 3rem;
+   
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: 1fr 3fr 1fr;
+}
